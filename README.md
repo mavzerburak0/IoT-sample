@@ -50,11 +50,11 @@ ESP32:
 
 First download Firmware from [here](http://micropython.org/download#esp32) and then
 
-`sudo esptool.py -p /dev/ttyUSB0 -b 460800 erase_flash
-sudo esptool.py -p /dev/ttyUSB0 -b 460800 write_flash --flash_mode dio 0x1000 esp32-*.bin`
+`sudo esptool.py -p /dev/ttyUSB0 -b 460800 erase_flash`
+`sudo esptool.py -p /dev/ttyUSB0 -b 460800 write_flash --flash_mode dio 0x1000 esp32-*.bin`
 
 ESP8266:
 
-`wget http://micropython.org/resources/firmware/esp8266-20170612-v1.9.1.bin
-sudo esptool.py -p /dev/ttyUSB0 -b 460800 erase_flash
-sudo esptool.py -p /dev/ttyUSB0 -b 460800 write_flash 0 esp8266-*.bin`
+`wget http://micropython.org/resources/firmware/esp8266-20170612-v1.9.1.bin`
+`sudo esptool.py -p /dev/ttyUSB0 -b 460800 erase_flash`
+`sudo esptool.py -p /dev/ttyUSB0 -b 460800 write_flash 0 esp8266-*.bin`
