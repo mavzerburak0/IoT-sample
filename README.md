@@ -1,14 +1,19 @@
 # IoT-sample
-IoT Lab for ICS
-
+#### IoT Lab for ICS
 
 This repository is prepared for I600 Introduction to Computers and Informatics Course in Tallinn University of Technology.
 
-Requirements
+## Getting Started
 
-Python 3.x
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-Running
+## Prerequisites
+
+* Python 3.x
+* Wemos ESP32
+* Jumper Cables
+
+## Running
 
 First clone the repository to your computer via Git. Following commands are for Linux and Mac. Note that the codes are in src/ folder.
 
@@ -29,7 +34,7 @@ Run following command:
 sudo ampy -p /dev/ttyUSB0 put main.py 
 Troubleshooting
 
-Resetting Device
+## Resetting Device
 
 If for any reason your device is struct, you may need to reset and reflash it.
 
