@@ -48,7 +48,7 @@ Sample instructions do accomplish it are below for different chipsets:
 
 ESP32:
 
-First download Firmware from [here] (http://micropython.org/download#esp32) and then
+First download Firmware from [here](http://micropython.org/download#esp32) and then
 
 `sudo esptool.py -p /dev/ttyUSB0 -b 460800 erase_flash
 sudo esptool.py -p /dev/ttyUSB0 -b 460800 write_flash --flash_mode dio 0x1000 esp32-*.bin`
